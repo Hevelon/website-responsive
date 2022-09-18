@@ -36,7 +36,9 @@ declaração de váriaves --variavel
     max-width: 1440px;
     padding: 0 5%;
     margin: 0 auto;
-    
+}
+section{
+    padding: 2.7rem 0;
 }
 .btn-gradiente{
     padding: 10px 25px;
@@ -45,7 +47,7 @@ declaração de váriaves --variavel
     cursor: pointer;
     background-image: var(--degrade-btn);
 }
-/* Classes di site */
+/* Classes do site */
 nav{
     display: flex;
     justify-content: space-between;
@@ -103,6 +105,36 @@ main .container{
     position: relative;
     z-index: 10;
 }
+/* resultados */
+.resultados{
+    background: #fa8607;
+}
+.resultados .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.resultados .resultados-text{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 50%;
+}
+.resultados .resultados-numeros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.resultados .resultados-numeros p{
+    text-align: center;
+    margin: 0 30px;
+    font-size: 20px;
+}
+.resultados .resultados-numeros p span{
+    font-size: 30px;
+    font-weight: 600;
+}
 
 /* responsivo */
 @media (max-width: 960px){
@@ -141,4 +173,23 @@ main .container .main-text h1{
 main .container .main-text div{
     justify-content: center;
 }
+.resultados .container{
+    flex-direction: column;
+}
+.resultados .resultados-text, .resultados .resultados-numeros{
+    width: 100%;
+    text-align: center;
+}
+.resultados-numeros{
+    margin-top: 30px;
+}
+}
+
+@media (max-width:440px){
+    .resultados .resultados-numeros{
+        flex-direction: column;
+    }
+    main .container .main-text h1{
+        font-size: 3rem;
+    }
 }
