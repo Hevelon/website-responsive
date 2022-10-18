@@ -251,6 +251,16 @@ main .container .main-text div{
 .diferenciais .card{
     width: 100%;
 }
+
+.description .container{
+    flex-direction: column-reverse;
+}
+.description .house-text,
+.description .house-img{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
 }
 
 @media (max-width:440px){
