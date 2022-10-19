@@ -197,6 +197,46 @@ main .container{
 
 /* End Section Description */
 
+.best-places .blue{
+    font-size: 24px;
+    font-weight: 600;
+    color: #0060f0;
+}
+.best-places h2{
+    font-size: 2.5rem;
+}
+.best-places .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.best-places .cards .card-iten{
+    width: 30%;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 20px;
+    box-shadow: 0px 35px 97px -15px rgba(0, 0, 0, 0.08);
+}
+.best-places .cards img{
+    width: 80px;
+}
+.best-places .cards .local-house{
+    margin: 5px;
+    color: var(--color-p);
+}
+.best-places .cards .name-house{
+    font-size: 30px;
+}
+.best-places .cards .contato{
+    margin-bottom: 20px;
+    color: var(--color-p-2);
+}
+.best-places .cards button{
+    padding: 10px 20px;
+    color: white;
+    background-color: var(--orange);
+    border: none;
+}
 
 /* responsivo */
 @media (max-width: 960px){
