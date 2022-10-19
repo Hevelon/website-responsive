@@ -301,8 +301,14 @@ main .container .main-text div{
     text-align: center;
     padding: 0;
 }
+.best-places .cards{
+    flex-direction: column;
 }
-
+.best-places .cards .card-iten{
+    width: 100%;
+    margin-top: 50px;
+}
+}
 @media (max-width:440px){
     .resultados .resultados-numeros{
         flex-direction: column;
